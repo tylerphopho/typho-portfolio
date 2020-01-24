@@ -6,24 +6,50 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> 
     <title>Tyler Pho's Portfolio</title>
 </head>
 <body>
-    <nav>
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo">Tyler Pho</a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
+<!-- Navbar Section -->
+<nav class="nav-wrapper indigo darken-1">
+  <div class="container">
+      <a href="#" class="brand-logo center">Tyler Pho</a>
+      <a href="#" class="sidenav-trigger" data-target="mobile-links">
+        <i class="material-icons">menu</i>   
+      </a>    
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+  </div>
+</nav>
+
+<ul class="sidenav" id="mobile-links">
+  <li><a href="#">About Me</a></li>
+  <li><a href="#">Resume</a></li>
+  <li><a href="#">Contact</a></li> 
+</ul>
+
+<!-- Parallax Section -->
+<div class="parallax-container">
+    <div class="parallax"><img src="assets/css/images/portfolio-image3.jpg" class="responsive-img"></div>
+  </div>
+  <div class="section white">
+    <div class="row container">
+      <h2 class="header">Welcome to my Portfolio</h2>
+      <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+    </div>
+  </div>
+  <div class="parallax-container">
+    <div class="parallax"><img src="assets/css/images/portfolio-image1.jpg" class="responsive-img"></div>
+  </div>
+
 </body>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="assets/js/index.js"></script>
 </html>
