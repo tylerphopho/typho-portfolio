@@ -13,3 +13,12 @@ background-color: #3949ab;
 .tab .tab a:focus, .tabs .tab a:focus.active {
     background: transparent;
 }
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
