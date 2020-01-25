@@ -1,3 +1,15 @@
 .nav {
     background-color: #3949ab !important;
 }
+
+.img {
+width: 50px;
+}
+
+.tabs .indicator {
+background-color: #3949ab;
+}
+
+.tab .tab a:focus, .tabs .tab a:focus.active {
+    background: transparent;
+}

@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Tyler Pho's Portfolio</title>
 </head>
 <body>
@@ -33,29 +33,69 @@
   <li><a href="#">Contact</a></li> 
 </ul>
 
-<!-- Project Grid Section -->
-
-
-
-<!-- Parallax Section -->
+<!-- Top of Parallax -->
 <div class="parallax-container">
     <div class="parallax"><img src="assets/css/images/portfolio-image3.jpg" class="responsive-img"></div>
   </div>
   <div class="section white">
     <div class="row container">
-      <h2 class="header">Welcome to my Portfolio</h2>
-      <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+      <h2 class="header indigo-text darken-1">Welcome to my Portfolio</h2>
+      <p class="grey-text text-darken-3 lighten-3">My name is Tyler Pho and here is my portfolio for Web-Development.  Over a course I've learned to how to use HTML, CSS, Javascript and jQuery.
+      </p>
     </div>
   </div>
-  <div class="parallax-container">
-    <div class="parallax"><img src="assets/css/images/portfolio-image1.jpg" class="responsive-img"></div>
-  </div>
-  <div class="sectionwhite">
-    <div class="container">
-      <h2 class="header">Projects</h2>
-      <p class="grey-text text-darken-3 lighten-3">Here are some of the projects I have created and helped develop.</p>
+
+
+
+
+
+<!-- Bottom of Parallax -->
+<div class="parallax-container">
+  <div class="parallax"><img src="assets/css/images/portfolio-image1.jpg" class="responsive-img"></div>
+</div>
+
+<section class="container section" id="photo's">
+<div class="row">
+  <h3 class="indigo-text darken-1">Event-Hub</h3>
+  <p>This was my first group project. With the help of Tyler Snyder and Cynthia Higley we created an app find events
+    locally within an area.
+  </p>
+  <button onclick="window.location.href = 'https://tylerphopho.github.io/event-finder/'; " class="waves-effect waves-light btn indigo darken-1">View APP</button>
+
+
+  <div class="col s12 16 offset-12">
+      <ul class="tabs">
+        <li class="tab col s6">
+          <a href="#tools" class="indigo-text text-darken-1">Tools</a>
+        </li>
+        <li class="tab col s6">
+            <a href="#languages" class="indigo-text text-darken-1">Languages</a>
+          </li>
+      </ul>
+      <div class="col s12" id="tools">
+        <p>
+        Ticketmaster API for events<br>
+        Materialize CSS Framework<br>
+        Here API for Map location
+        </p>
+      </div>
+      <div class="col s12" id="languages">
+        <p>HTML<br>CSS<br>JavaScript<br>jQuery</p>
+      </div>
+    </div>
+
+</div>
+  <div class="row">
+    <div class="col s12 14">
+      <img src="assets/css/images/event-finder-img.png" alt="" class="responsive-img">
     </div>
   </div>
+
+    
+    
+
+<!-- Project Grid Section -->
+
 
 </body>
 <!-- Compiled and minified JavaScript -->
