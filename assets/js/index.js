@@ -4,4 +4,5 @@ $(document).ready(function() {
     $(".collapsible").collapsible();
     $(".tabs").tabs();
     $(".scrollspy").scrollSpy();
+    $(".modal").modal();
 });

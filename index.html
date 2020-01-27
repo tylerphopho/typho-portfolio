@@ -22,9 +22,9 @@
         <i class="material-icons">menu</i>   
       </a>    
       <ul class="right hide-on-med-and-down">
-        <li><a href="#about-me">About Me</a></li>
+        <li><a class="modal-trigger" href="#about-me" data-target="">About Me</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#">Resume</a></li>
+        <li><a href="assets/Resume.docx.pdf">Resume</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
   </div>
@@ -36,14 +36,33 @@
   <li><a href="#">Contact</a></li> 
 </ul>
 
+<!-- About Me Modal -->
+<div id="about-me" class="modal">
+  <div class="container">
+    <div class="row">
+        <div class="modal-content">
+            <h4 class="indigo-text darken-1">About Me</h4>
+            <img id="about-me-img" src="assets/css/images/portfolio-image.jpg" class="responsive-img" alt="me">
+            <p>I'm a 21 year old student attending a 6 month Full Stack <br> Web-Development Bootcamp held by the University of Utah.
+            I started this camp to find a career I hoped to enjoy and so far I'm loving every experience of it. 
+            I don't come from any background of Web-Development but I had expectations starting this course.
+            </p>
+          </div>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+  </div>
+</div>
+
 <!-- Top of Parallax -->
 <div class="parallax-container">
-    <div class="parallax"><img src="assets/css/images/portfolio-image3.jpg" class="responsive-img"></div>
+    <div class="parallax"><img id="about-me-img" src="assets/css/images/portfolio-image3.jpg" class="responsive-img"></div>
   </div>
   <div class="section white">
     <div class="row container">
       <h2 class="header indigo-text darken-1">Welcome to my Portfolio</h2>
-      <p class="grey-text text-darken-3 lighten-3">My name is Tyler Pho and here is my portfolio for Web-Development.  Over a course I've learned to how to use HTML, CSS, Javascript and jQuery.
+      <p class="grey-text text-darken-3 lighten-3"> My name is Tyler Pho and here is my portfolio for Web-Development.  Over a course I've learned to how to use HTML, CSS, Javascript and jQuery.
       </p>
     </div>
   </div>
@@ -165,7 +184,7 @@
           <p>Phone: 801-946-5454</p>
         </div>
         <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Socials</h5>
+          <h5 class="white-text">Connect</h5>
           <ul>
             <li><a class="fa fa-twitter grey-text text-lighten-3" href="https://twitter.com/typhopho">Twitter</a></li>
             <li><a class="fa fa-github grey-text text-lighten-3" href="https://github.com/tylerphopho">GitHub</a></li>
@@ -174,6 +193,8 @@
         </div>
       </div>
     </div>
+
+    <!-- Footer -->
     <div class="footer-copyright">
       <div class="container">
       © 2020 Copyright Text
